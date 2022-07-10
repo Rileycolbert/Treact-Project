@@ -6,72 +6,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TREACT</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <section id="home">
       <nav>
         <div class="row">
-          <div class="nav__flex">
-            <div class="nav__logo--wrapper">
+          <div class="nav__wrapper">
+            <figure class="logo">
               <img
                 src="./TREACT ASSETS/Treactlogo.svg"
-                class="nav__logo--img"
                 alt=""
+                class="logo__img"
               />
-              <h1 class="nav__logo--title">Treact</h1>
-            </div>
-            <ul class="nav__links">
-              <div class="link__breaker">
-                <li class="nav__link">
-                  <a href="" class="link__design">About</a>
-                </li>
-                <li class="nav__link">
-                  <a href="" class="link__design">Blog</a>
-                </li>
-                <li class="nav__link">
-                  <a href="#pricing" class="link__design">Pricing</a>
-                </li>
-                <li class="nav__link">
-                  <a href="#contact" class="link__design">Contact Us</a>
-                </li>
-              </div>
-              <li class="nav__link--primary">
-                <a href="" class="link__design">Login</a>
+              <span class="logo--text">Treact</span>
+            </figure>
+            <ul class="nav__list">
+              <li class="nav__links">
+                <a href="" class="nav__link link__hover--effect">About</a>
+              </ul>li>
+
+              <li class="nav__links">
+                <a href="" class="nav__link link__hover--effect">Blog</a>
               </li>
-              <li class="nav__link--primary">
-                <a href="" class="link__design--primary">Sign Up</a>
+              <li class="nav__links">
+                <a href="" class="nav__link link__hover--effect">Pricing</a>
               </li>
+              <li class="nav__links">
+                <a href="" class="nav__link link__hover--effect">Contact Us</a>
+              </li>
+              <li class="nav__links">
+                <a
+                  href=""
+                  class="nav__link nav__link--login link__hover--effect"
+                  >Login</a
+                >
+              </li>
+              <button class="nav__btn btn">Sign Up</button>
             </ul>
+            <button class="btn__menu">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="menu__backdrop">
+              <button class="btn__menu btn__menu--close">
+                <i class="fas fa-times"></i>
+              </button>
+              <ul class="menu__list">
+                <li class="menu__links">
+                  <a href="" class="menu__link">About</a>
+                </li>
+                <li class="menu__links">
+                  <a href="" class="menu__link">Blog</a>
+                </li>
+                <li class="menu__links">
+                  <a href="" class="menu__link">Pricing</a>
+                </li>
+                <li class="menu__links">
+                  <a href="" class="menu__link">Contact Us</a>
+                </li>
+                <li class="menu__links">
+                  <a href="" class="menu__link">Login</a>
+                </li>
+                <button class="menu__button">Sign Up</button>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
-      <div class="container">
-        <div class="row header__flex">
-          <div class="home__text--wrapper">
-            <h1 class="header__title">
-              Beautiful React Templates <span class="text--purple">for you.</span>
-            </h1>
-            <p class="header__para">
-              Our templates are easy to setup, understand and customize. Fully
-              modular components with a variety of pages and components.
-            </p>
-            <div class="header__button--wrapper">
-              <input class="header__input" type="email" placeholder="Your Email Adress">
-            <button class="header__button">Get Started</button>
+
+      <header>
+        <div class="container">
+          <div class="row header__wrapper">
+            <div class="header__description">
+              <h1 class="header__title">
+                Beautiful React Teamplates
+                <span class="text--purple">for you.</span>
+              </h1>
+              <p class="header__para">
+                Our templates are easy to setup, understand and customize. Fully
+                modular components with a variety of pages and components.
+              </p>
+              <div class="header__btn--wrapper">
+                <input
+                  class="header__input"
+                  type="email"
+                  placeholder="Your E-mail Address"
+                />
+                <button class="header__btn btn">Get Started</button>
+              </div>
+              <span class="customer--text">OUR VALUED CUSTOMERS</span>
+              <img
+                src="./TREACT ASSETS/headerimg.png"
+                class="customer__img"
+                alt=""
+              />
             </div>
-            <div class="customers__wrapper">
-              <p class="customers__para">OUR TRUSTED CUSTOMERS</p>
-              <figure class="header__img--wrapper">
-              <img src="./TREACT ASSETS/headerimg.png" class="header__img" alt="">
+            <figure class="header__figure">
+              <img
+                src="./TREACT ASSETS/undrawpurple.svg"
+                alt=""
+                class="header__img"
+              />
             </figure>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <main>
+      <section id="Features">
+        <div class="container">
+          <div class="row features__wrapper">
+            <div class="features__description">
+              <h5 class="section__category">FEATURES</h5>
+              <h2 class="section__title">
+                We have Amazing <span class="text--purple">Service.</span>
+              </h2>
+              <p class="section__para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="features">
+              <div class="feature">
+                <figure class="feature__img--wrapper">
+                  <img src="" class="feature__img" alt="" />
+                </figure>
+                <div class="feature__info">
+                  <h5 class="feature__title">Secure</h5>
+                  <p class="feature__para">
+                    We strictly only deal with vendors that provide top notch
+                    security.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <figure class="home__img--wrapper">
-            <img src="./TREACT ASSETS/undrawpurple.svg" class="home__img" alt="">
-          </figure>
         </div>
-      </div>
-    </section>
-    
+      </section>
+    </main>
   </body>
 </html>
