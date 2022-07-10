@@ -296,12 +296,12 @@ align-items: center;
 
 .quality__figure{
     width: 50%;
-    border: 1px solid lightgray;
     margin-left: 60px;
 }
 
 .quality__img{
     width: 100%;
+    border: 1px solid lightgray;
 }
 
 .quality__btn,
@@ -439,6 +439,7 @@ margin-left: 24px;
     display: flex;
     width: 100%;
     justify-content: center;
+    margin-top: 40px;
 }
 
 .plan{
@@ -450,12 +451,12 @@ margin-left: 24px;
 }
 
 .personal__plan{
-    border-top: 8px solid lightgreen;
+    border-top: 8px solid rgb(56, 178, 172);
     border-radius: 12px;
 }
 
 .enterprise__plan{
-    border-top: 8px solid orange;
+    border-top: 8px solid rgb(245, 101, 101);
     border-radius: 12px;
 }
 
@@ -519,18 +520,192 @@ width: 100%;
 }
 
 .btn-1{
-    
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    color: white;
+}
+
+.btn-3{
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    color: white;
 }
 
 .business__plan * {
     border: none;
-    background-color: blue;
+    background-color: rgb(102, 126, 234);
     color: white;
 }
 
 .business__plan{
-    border-top: 8px solid blue;
+    border-top: 8px solid rgb(102, 126, 234);
     border-radius: 12px;
     margin: 0 24px;
 }
 
+.business__box-2{
+    border-top: 1px solid rgb(84, 96, 149);
+    border-bottom: 1px solid rgb(84, 96, 149)
+}
+
+.btn-2{
+    background-color: white;
+    color: rgb(100,21,255);
+}
+
+/* PRICING EFFECTS */
+
+.plan__btn:hover{
+    transform: translateY(-2px) translateX(2px);
+    box-shadow: 0 8px 16px rgb(0,0,0, 0.16);
+}
+
+/* TESTIMONIALS */
+
+.testimonial__wrapper{
+    display: flex;
+}
+
+.testimonial__description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial__figure{
+    width: 50%;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial__img{
+    width: 100%;
+}
+
+.stars{
+    color: gold;
+    padding-bottom: 16px;
+}
+
+.review__title{
+    font-size: 20px;
+}
+
+.review__para{
+    padding: 16px 0;
+    font-size: 16px;
+}
+
+.client{
+    display: flex;
+    justify-content: space-between;
+}
+
+.client__figure{
+    display: flex;
+    margin-top: 20px;
+}
+
+.client__img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.client__information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 24px;
+}
+
+.client__name{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.client__role{
+    color: gray;
+}
+
+.arrow__buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button__divider{
+    height: 30px;
+    width: 1px;
+    background-color: rgb(237,242,247);
+    margin: 0 8px;
+}
+
+.arrow__button{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: none;
+    color: rgb(100,21,255);
+    background-color: rgb(237,242,247);
+}
+
+/* BUTTONS */
+
+.buttons__wrapper{
+    display: flex;
+    background-color: rgba(100,21,255);
+    height: 300px;
+    border-radius: 8px;
+}
+
+.buttons__description{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left:32px;
+    font-size: 30px;
+    color: white;
+}
+
+.two__buttons--wrapper{
+    width: 50%;
+    margin-right: 32px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn__get,
+.btn__contact{
+    height: 60px;
+    padding: 0 40px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn__get{
+    margin-right: 28px;
+    background-color: rgba(245,101,101);
+    border: none;
+}
+
+.btn__contact{
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+/* BUTTONS EFFECTS */
+
+.btn__get:hover{
+    background-color: rgba(229,62,62);
+}
+
+.btn__contact:hover{
+    background-color: white;
+    color: rgba(100,21,255);
+}
