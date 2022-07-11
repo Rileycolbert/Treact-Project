@@ -825,4 +825,41 @@ footer{
     .nav__list{
         display: none;
     }
+
+    .header__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 512px;
+    }
+
+    .header__description{
+        max-width: 550px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header__btn--wrapper{
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .customer__img{
+        width: 100%;
+    }
+
+    .header__figure{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 48px;
+    }
+
+    .features{
+        max-width: 750px;
+    }
+
+    .feature{
+        width: calc(100% / 2);
+    }
 }
